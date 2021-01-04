@@ -1,9 +1,5 @@
-
 public class Queue {
-	int[] q;
-	Queue(){
-		q=new int[0];
-	}
+	int[] q= {};
 	void enqueue(int x){
 		int[] new_q = new int[q.length+1];
 		for(int i=0;i<q.length;i++) {
